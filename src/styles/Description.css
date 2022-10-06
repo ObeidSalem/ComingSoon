@@ -5,12 +5,19 @@
   font-size: 16px;
   font-weight: 500;
   color: #000;
-
   max-width: 700px;
   grid-template-columns: 1fr;
 }
-
-.description-text {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
+.description a{
+  overflow: hidden;
+  grid-area: description;
+  display: grid;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  grid-template-columns: 1fr;
+}
+.description a:hover {
+  transform: scale(0.9);
 }

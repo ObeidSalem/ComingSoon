@@ -9,10 +9,6 @@
   align-items: center;
 }
 
-/*
-Thanks to Wes Bos for the gradient trick
-https://cssgrid.io
-*/
 .title:before,
 .title:after {
   display: block;
