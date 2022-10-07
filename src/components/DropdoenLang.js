@@ -23,18 +23,18 @@ const DropdownLanguage = () => {
           style={{
             borderColor: '#1B7CEC',
             borderRadius: '5px',
-            borderWidth:'2px',
-            padding:'2px',
-            fontSize:'10px',
+            borderWidth: '2px',
+            padding: '2px',
+            fontSize: '10px',
             background: '#ffffff',
-            color:'black',
+            color: 'black',
             fontWeight: 'bold'
           }}
         >
-          
-          <option value="ar">Arabic</option>
-          
           <option value="en">English</option>
+
+          <option value="ar">Arabic</option>
+
         </select>
       </div>
 
