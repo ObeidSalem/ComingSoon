@@ -37,7 +37,15 @@
   height: 40px;
 
 }
-
+.iconglo{
+  display: flex;
+  text-align: center;
+}
+.iconglo .global{
+  color: black;
+  margin-right: 1px;
+  margin-top: 3px;
+}
 .iconsocial:hover {
   transform: scale(1.1);
 }

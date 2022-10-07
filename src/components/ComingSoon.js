@@ -10,6 +10,9 @@ import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineMail } from "react-icons
 import { withTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import DropdoenLang from '../components/DropdoenLang'
+import Locals from '../components/locals'
+import { AiOutlineGlobal } from "react-icons/ai";
+
 class ComingSoon extends Component {
   //
   handleClick(lang) {
@@ -70,8 +73,13 @@ class ComingSoon extends Component {
               />
             </div>
             <div class="column" >
-              <DropdoenLang />
+              <div className="iconglo">
+              <AiOutlineGlobal 
+              className="global"
+              />
+              <Locals />
 
+              </div>
             </div>
           </div>
         </div>
