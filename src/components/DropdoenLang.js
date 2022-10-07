@@ -32,9 +32,7 @@ const DropdownLanguage = () => {
           }}
         >
           <option value="en">English</option>
-
           <option value="ar">Arabic</option>
-
         </select>
       </div>
 
