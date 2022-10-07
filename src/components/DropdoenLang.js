@@ -31,10 +31,8 @@ const DropdownLanguage = () => {
             fontWeight: 'bold'
           }}
         >
-          
-          <option value="ar">Arabic</option>
-          
           <option value="en">English</option>
+          <option value="ar">Arabic</option>
         </select>
       </div>
 
