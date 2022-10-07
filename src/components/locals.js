@@ -23,8 +23,18 @@ const Locals = () => {
         <div>
             <div className="switcher">
                 {/* Language switch dropdown here */}
-                <select onChange={handleChangeLocale} value={language}>
-
+                <select 
+                onChange={handleChangeLocale} 
+                value={language}
+                style={{
+                    borderColor: '#1B7CEC',
+                    borderRadius: '5px',
+                    borderWidth: '2px',
+                    padding: '1px',
+                    background: '#ffffff',
+                    color: 'black',
+                }}
+                >
                     {languages.map(({ name, code }) => (
                         <option key={code} value={code}>
                             {name}
