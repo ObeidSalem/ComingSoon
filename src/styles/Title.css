@@ -1,9 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/neo-sans-pro');
 
 .title {
   grid-area: title;
   display: grid;
-  font-family: 'Neo Sans Pro', sans-serif;                                            
+  font-family: "Neo Sans Arabic", sans-serif;
+  font-family: "Neo Sans", sans-serif;
   grid-gap: 20px;
   width: 100%;
   max-width: 700px;
@@ -20,9 +20,9 @@
 }
 
 .title:before {
-  background: linear-gradient(to left, #1B7CEC, transparent);
+  background: linear-gradient(to left, #1b7cec, transparent);
 }
 
 .title:after {
-  background: linear-gradient(to right, #1B7CEC, transparent);
+  background: linear-gradient(to right, #1b7cec, transparent);
 }
