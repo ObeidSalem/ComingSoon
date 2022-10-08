@@ -69,17 +69,18 @@
 .joinbutton{
   color: #fff;
   font-weight: bold;
-  padding: 8px;
-  font-size: 12px;
+  padding: 10px;
+  font-size: 15px;
   background: #1B7CEC;
-  border-color: #1B7CEC;
+  border: #fff;
   border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
+  letter-spacing: 0.5px;
 }
 
 .joinbutton:hover {
-  transform: scale(0.9);
+  color: #fff;
+  transform: translateY(-7px);
 }
