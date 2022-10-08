@@ -1,10 +1,9 @@
-
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 .title {
   grid-area: title;
   display: grid;
-  font-family: "Neo Sans Arabic", sans-serif;
-  font-family: "Neo Sans", sans-serif;
-  grid-gap: 20px;
+  font-family: 'Droid Arabic Naskh', serif;  
+    grid-gap: 20px;
   width: 100%;
   max-width: 700px;
   color: #000;
@@ -20,9 +19,9 @@
 }
 
 .title:before {
-  background: linear-gradient(to left, #1b7cec, transparent);
+  background: linear-gradient(to left, #1B7CEC, transparent);
 }
 
 .title:after {
-  background: linear-gradient(to right, #1b7cec, transparent);
+  background: linear-gradient(to right, #1B7CEC, transparent);
 }

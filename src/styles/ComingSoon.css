@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 .background {
   display: grid;
   grid-gap: 10px;
@@ -41,7 +42,7 @@
 .iconglo .global {
   color: black;
   margin-right: 2px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .iconsocial:hover {
   transform: scale(1.1);
@@ -49,8 +50,7 @@
 
 .description {
   overflow: hidden;
-  font-family: "Neo Sans Arabic", sans-serif;
-  font-family: "Neo Sans", sans-serif;
+  font-family: "Droid Arabic Naskh", serif;
   grid-area: description;
   display: grid;
   font-size: 18px;
@@ -63,9 +63,9 @@
   margin-top: 1px;
 }
 .joinbutton {
-  font-family: 'Neo Sans Arabic', sans-serif;
-  font-family: 'Neo Sans', sans-serif;
-color: #fff;
+  font-family: "Droid Arabic Naskh", serif;
+  color: #fff;
+  font-weight: bold;
   padding: 10px;
   font-size: 15px;
   background: #1b7cec;
