@@ -66,16 +66,15 @@
 .joinbutton {
   font-family:"Calibri, sans-serif";
   color: #fff;
-  font-weight: bold;
   padding: 10px;
-  font-size: 15px;
+  font-size: 18px;
   background: #1b7cec;
   border: #fff;
   border-radius: 45px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
-  letter-spacing: 1.0px;
+  letter-spacing: 0.7px;
   -webkit-box-shadow: 0 15px 10px #e1e6ed;
   -moz-box-shadow: 0 15px 10px #e1e6ed;
   box-shadow: 0 15px 10px #e1e6ed;
