@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/neo-sans-pro');
+
 .logo-container {
     grid-area: logo;
     animation: logo-spin infinite 5s linear;
