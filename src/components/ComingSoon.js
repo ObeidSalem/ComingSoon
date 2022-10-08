@@ -79,10 +79,12 @@ class ComingSoon extends Component {
 
 
         <div className="description">
-          <div>
+          <div clas>
             <p className="description-text">
               { t('Your')} <b style={{color:'#1B7CEC'}}> {t ('EV')}</b> { t('deserves a Quality-Time')}
             </p>
+            <br></br>
+
           </div>
 
           <div className="descriptiontw">
