@@ -1,9 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/neo-sans-pro');
+
 .title {
   grid-area: title;
   display: grid;
-  font-family: 'Neo Sans Pro', sans-serif;
-                                                
-    grid-gap: 20px;
+  font-family: 'Neo Sans Pro', sans-serif;                                            
+  grid-gap: 20px;
   width: 100%;
   max-width: 700px;
   color: #000;
