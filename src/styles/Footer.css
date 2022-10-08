@@ -1,7 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/neo-sans-pro');
+
 .footertext{
     font-size: 11px;
     padding: 2px;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Neo Sans Pro', sans-serif;                                      
     color: #757778;
     position: relative;
     /* negative value of footer height */
