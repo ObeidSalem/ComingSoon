@@ -1,4 +1,4 @@
-.background {
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);.background {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr;
@@ -55,7 +55,8 @@
 
 .description {
   overflow: hidden;
-  grid-area: description;
+  font-family: 'Droid Arabic Naskh', serif;  
+    grid-area: description;
   display: grid;
   font-size: 18px;
   font-weight: 0;
@@ -67,9 +68,10 @@
   margin-top: 1px;
 }
 .joinbutton{
+  font-family: 'Droid Arabic Naskh', serif;  
   color: #fff;
   font-weight: bold;
-  padding: 10px;
+ padding: 10px;
   font-size: 15px;
   background: #1B7CEC;
   border: #fff;
