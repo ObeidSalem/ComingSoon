@@ -1,8 +1,7 @@
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 .title {
   grid-area: title;
   display: grid;
-  font-family: 'Droid Arabic Naskh', serif;  
+  font-family:"Calibri, sans-serif";
     grid-gap: 20px;
   width: 100%;
   max-width: 700px;

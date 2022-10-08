@@ -1,10 +1,9 @@
 
 .footertext {
-  font-size: 11px;
+  font-size: 12px;
   padding: 2px;
-  font-weight: 400;
-  font-family: "Neo Sans Arabic", sans-serif;
-  font-family: "Neo Sans", sans-serif;
+  font-weight: 500;
+  font-family:"Calibri, sans-serif";
   color: #757778;
   position: relative;
   /* negative value of footer height */
