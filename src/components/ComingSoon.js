@@ -9,7 +9,6 @@ import "../styles/ComingSoon.css";
 import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineMail } from "react-icons/ai";
 import { withTranslation } from 'react-i18next';
 import i18next from 'i18next';
-import DropdoenLang from '../components/DropdoenLang'
 import Locals from '../components/locals'
 import { AiOutlineGlobal } from "react-icons/ai";
 
@@ -74,11 +73,9 @@ class ComingSoon extends Component {
             </div>
             <div class="column" >
               <div className="iconglo">
-              <AiOutlineGlobal 
-              className="global"
-              />
-              <Locals />
-
+                <AiOutlineGlobal className="global"
+                />
+                <Locals />
               </div>
             </div>
           </div>

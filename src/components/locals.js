@@ -30,7 +30,8 @@ const Locals = () => {
                     borderColor: '#1B7CEC',
                     borderRadius: '5px',
                     borderWidth: '2px',
-                    padding: '1px',
+                    padding: '0px',
+                    fontSize:'12px',
                     background: '#ffffff',
                     color: 'black',
                 }}
