@@ -54,7 +54,7 @@
   grid-area: description;
   display: grid;
   font-size: 18px;
-  font-weight: 0;
+  font-weight: 400;
   color: #000;
   max-width: 700px;
   grid-template-columns: 1fr;
@@ -74,7 +74,7 @@
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
-  letter-spacing: 0.5px;
+  letter-spacing: 1.0px;
   -webkit-box-shadow: 0 15px 10px #e1e6ed;
   -moz-box-shadow: 0 15px 10px #e1e6ed;
   box-shadow: 0 15px 10px #e1e6ed;
