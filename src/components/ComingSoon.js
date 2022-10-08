@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 import Logo from "./Logo";
 import Title from "./Title";
-import Description from "./Description";
 import logo from "../images/gificon1.gif";
 import logoHead from "../images/headimg.png";
 import "../styles/ComingSoon.css";
@@ -11,6 +10,7 @@ import { withTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import Locals from '../components/locals'
 import { AiOutlineGlobal } from "react-icons/ai";
+import Footer from "./Footer";
 
 class ComingSoon extends Component {
   //
@@ -27,12 +27,7 @@ class ComingSoon extends Component {
     title: {
       text: "Coming Soon!"
     },
-    description: {
-      text:
-        "Your EV deserves a Quality-Time",
-      text2:
-        "Join Sha7en Family !"
-    },
+
   };
 
   changeLogoSpeed = () => {
@@ -51,7 +46,6 @@ class ComingSoon extends Component {
 
     const {
       title,
-      description,
       logo,
     } = this.state;
     const { t } = this.props;
@@ -82,33 +76,39 @@ class ComingSoon extends Component {
         </div>
         <Logo alt={logo.alt} src={logo.src} spinSpeed={logo.spinSpeed} />
         <Title text={t(title.text)} />
-        <Description
-          text={t(description.text)}
-          text2={t(description.text2)}
 
-        />
+
+        <div className="description">
+          <div>
+            <p className="description-text">
+              { t('Your')} <b style={{color:'#1B7CEC'}}> {t ('EV')}</b> { t('deserves a Quality-Time')}
+            </p>
+          </div>
+
+          <div className="descriptiontw">
+            <a href="https://forms.zohopublic.com/ezcharge/form/ComingSoonSha7en/formperma/WTst-oOOOPFSL4r1ZNPqiWlvV0r9J4o2rtRsT-dmfo4?zf_rszfm=1">
+              <button className="joinbutton">
+                {t('Be a Part of Sha7en Family!')}
+              </button>
+            </a>
+          </div>
+        </div>
 
         <div className="linksSocial">
           <a
-            href="https://instagram.com/sha7en.ae?igshid=YmMyMTA2M2Y="
-          >
-            <AiOutlineInstagram className="iconsocial"
-
-            />
+            href="https://instagram.com/sha7en.ae?igshid=YmMyMTA2M2Y=">
+            <AiOutlineInstagram className="iconsocial" />
           </a>
-          <a
-            href="https://twitter.com/Sha7enAe?t=Mg5KrWiHZUNBMM2vDZK5dg&s=09"
-          >
+          <a href="https://twitter.com/Sha7enAe?t=Mg5KrWiHZUNBMM2vDZK5dg&s=09">
             <AiOutlineTwitter className="iconsocial" />
           </a>
-          <a
-            class="mailto"
-            href="mailto:sha7en.ae"
-            mail
-          >
+          <a class="mailto"
+            href="mailto:info@sha7en.ae"
+            mail>
             <AiOutlineMail className="iconsocial" />
           </a>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -1,0 +1,10 @@
+.footertext{
+    font-size: 11px;
+    padding: 2px;
+    font-weight: 500;
+    color: #757778;
+    position: relative;
+    /* negative value of footer height */
+    clear: both;
+}
+

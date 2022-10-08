@@ -27,9 +27,9 @@ const Locals = () => {
                 onChange={handleChangeLocale} 
                 value={language}
                 style={{
-                    borderColor: '#1B7CEC',
+                    borderColor: '#d2d4d6',
                     borderRadius: '5px',
-                    borderWidth: '2px',
+                    borderWidth: '1px',
                     padding: '0px',
                     fontSize:'12px',
                     background: '#ffffff',
