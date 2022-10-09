@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Logo from "./Logo";
 import Title from "./Title";
 import logo from "../images/gificon1.gif";
-import logoHead from "../images/headimg.png";
 import "../styles/ComingSoon.css";
 import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineMail } from "react-icons/ai";
 import { withTranslation } from 'react-i18next';
@@ -11,6 +10,8 @@ import i18next from 'i18next';
 import Locals from '../components/locals'
 import { AiOutlineGlobal } from "react-icons/ai";
 import Footer from "./Footer";
+import logoHead from "../images/headimg.png";
+import logoHeadtwo from "../images/arShahen.svg";
 
 class ComingSoon extends Component {
   //
@@ -57,7 +58,9 @@ class ComingSoon extends Component {
             <div class="column" >
               <img
                 className="mainlogo"
-                src={logoHead}
+                src={localStorage.getItem('i18nextLng') === "ar" 
+                ? logoHeadtwo : logoHead}
+                alt="logo"
                 style={{
                   width: '150px',
                   height: '150'
