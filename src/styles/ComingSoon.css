@@ -38,6 +38,7 @@
 .iconglo {
   display: flex;
   float: right;
+  margin-top: 10px;
 }
 .iconglo .global {
   color: black;

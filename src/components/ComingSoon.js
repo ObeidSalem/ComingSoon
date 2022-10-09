@@ -10,7 +10,7 @@ import i18next from 'i18next';
 import Locals from '../components/locals'
 import { AiOutlineGlobal } from "react-icons/ai";
 import Footer from "./Footer";
-import logoHead from "../images/headimg.png";
+import logoHead from "../images/enSha7en.svg";
 import logoHeadtwo from "../images/arShahen.svg";
 
 class ComingSoon extends Component {
@@ -62,8 +62,7 @@ class ComingSoon extends Component {
                 ? logoHeadtwo : logoHead}
                 alt="logo"
                 style={{
-                  width: '150px',
-                  height: '150'
+                  width: '100px',
                 }}
 
               />
