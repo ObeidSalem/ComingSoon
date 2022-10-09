@@ -1,10 +1,12 @@
 .title {
   grid-area: title;
   display: grid;
-  font-family:"Calibri, sans-serif";
-    grid-gap: 20px;
+  font-family: "Calibri, sans-serif";
+  grid-gap: 20px;
+  width: 100%;
   width: 100%;
   max-width: 700px;
+  margin: 0px auto;
   color: #000;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
@@ -18,9 +20,9 @@
 }
 
 .title:before {
-  background: linear-gradient(to left, #1B7CEC, transparent);
+  background: linear-gradient(to left, #1b7cec, transparent);
 }
 
 .title:after {
-  background: linear-gradient(to right, #1B7CEC, transparent);
+  background: linear-gradient(to right, #1b7cec, transparent);
 }

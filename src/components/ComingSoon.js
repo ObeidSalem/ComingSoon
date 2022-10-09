@@ -43,8 +43,6 @@ class ComingSoon extends Component {
   };
 
   render() {
-    //
-
     const {
       title,
       logo,
@@ -52,44 +50,39 @@ class ComingSoon extends Component {
     const { t } = this.props;
 
     return (
-      <div className="background">
-        <div className="">
-          <div class="row">
-            <div class="" >
-              <img
-                className="mainlogo"
-                src={localStorage.getItem('i18nextLng') === "ar" 
-                ? logoHeadtwo : logoHead}
-                alt="logo"
-                style={{
-                  width: '170px',
-                }}
-              />
-            </div>
-            
-            <div class="row" >
-              <div className="iconglo">
-                <AiOutlineGlobal className="global"
-                />
-                <Locals />
-              </div>
-            </div>
-          </div>
+      <div className="">
+        <div class="" >
+          <img
+            className="mainlogo"
+            src={localStorage.getItem('i18nextLng') === "ar"
+              ? logoHeadtwo : logoHead}
+            alt="logo"
+            style={{
+              width: '170px',
+            }}
+          />
         </div>
-        <Logo alt={logo.alt} src={logo.src} spinSpeed={logo.spinSpeed} />
-        <Title text={t(title.text)} />
 
+        <div className="iconglo">
+          <AiOutlineGlobal className="global"
+          />
+          <Locals />
+        </div>
+
+        <div className="LogoTitle">
+          <Logo alt={logo.alt} src={logo.src} spinSpeed={logo.spinSpeed} />
+          <Title text={t(title.text)} />
+        </div>
 
         <div className="description">
           <div clas>
             <p className="description-text">
-              { t('Your')} <b style={{color:'#1B7CEC'}}> {t ('EV')}</b> { t('deserves a Quality-Time')}
+              {t('Your')} <b style={{ color: '#1B7CEC' }}> {t('EV')}</b> {t('deserves a Quality-Time')}
             </p>
             <br></br>
-
           </div>
 
-          <div className="descriptiontw">
+          <div className="">
             <a href="https://forms.zohopublic.com/ezcharge/form/ComingSoonSha7en/formperma/WTst-oOOOPFSL4r1ZNPqiWlvV0r9J4o2rtRsT-dmfo4?zf_rszfm=1">
               <button className="joinbutton">
                 {t('Be a Part of Sha7en Family!')}

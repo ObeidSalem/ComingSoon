@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
-.background {
+
+/*.background {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr;
@@ -13,21 +14,20 @@
   justify-items: center;
   align-items: center;
   color: var(--white);
-}
+}*/
 
-/* Create two equal columns that floats next to each other */
-.column {
+/*.column {
   float: left;
   width: 50%;
   padding: 40px;
-}
+}*/
 
-/* Clear floats after the columns */
+/* Clear floats after the columns 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 .iconsocial {
   padding: 1px;
@@ -38,9 +38,10 @@
 
 .iconglo {
   display: flex;
-  margin-left: 40px;
-  margin-top: 2px;
+  margin-top: 10px;
+  float: right;
   margin-bottom: 2px;
+  margin-right: 10px;
 }
 .iconglo .global {
   color: black;
@@ -55,19 +56,19 @@
 
 .description {
   overflow: hidden;
+  margin-top: 10px;
   font-family:"Calibri, sans-serif";
   grid-area: description;
   display: grid;
   font-size: 20px;
   font-weight: 400;
   color: #000;
-  max-width: 700px;
   grid-template-columns: 1fr;
 }
 .description-text {
   margin-top: 1px;
-  
 }
+
 .joinbutton {
   font-family:"Calibri, sans-serif";
   color: #fff;
@@ -88,4 +89,7 @@
 .joinbutton:hover {
   color: #fff;
   transform: translateY(-7px);
+}
+.linksSocial{
+  margin-top: 20px;
 }
