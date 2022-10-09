@@ -11,7 +11,7 @@ import Locals from '../components/locals'
 import { AiOutlineGlobal } from "react-icons/ai";
 import Footer from "./Footer";
 import logoHead from "../images/enSha7en.svg";
-import logoHeadtwo from "../images/arShahen.svg";
+import logoHeadtwo from "../images/arShahen.png";
 
 class ComingSoon extends Component {
   //
@@ -55,19 +55,19 @@ class ComingSoon extends Component {
       <div className="background">
         <div className="">
           <div class="row">
-            <div class="column" >
+            <div class="" >
               <img
                 className="mainlogo"
                 src={localStorage.getItem('i18nextLng') === "ar" 
                 ? logoHeadtwo : logoHead}
                 alt="logo"
                 style={{
-                  width: '100px',
+                  width: '170px',
                 }}
-
               />
             </div>
-            <div class="column" >
+            
+            <div class="row" >
               <div className="iconglo">
                 <AiOutlineGlobal className="global"
                 />
