@@ -13,6 +13,7 @@ import Footer from "./Footer";
 import logoHead from "../images/enSha7en.svg";
 import logoHeadtwo from "../images/arShahen.png";
 
+
 class ComingSoon extends Component {
   //
   handleClick(lang) {
@@ -83,12 +84,14 @@ class ComingSoon extends Component {
           </div>
 
           <div className="">
-            <a href="https://forms.zohopublic.com/ezcharge/form/ComingSoonSha7en/formperma/WTst-oOOOPFSL4r1ZNPqiWlvV0r9J4o2rtRsT-dmfo4?zf_rszfm=1">
+            <a href={localStorage.getItem('i18nextLng') === "ar"
+              ? 'https://zfrmz.com/Op46QSj2895YsfT7F1DT?zf_lang=ar' : 'https://forms.zohopublic.com/ezcharge/form/ComingSoonSha7en/formperma/WTst-oOOOPFSL4r1ZNPqiWlvV0r9J4o2rtRsT-dmfo4?zf_rszfm=1'}>
               <button className="joinbutton">
                 {t('Be a Part of Sha7en Family!')}
               </button>
             </a>
           </div>
+
         </div>
 
         <div className="linksSocial">
