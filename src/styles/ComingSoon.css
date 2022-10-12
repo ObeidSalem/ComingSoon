@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
 /*.background {
   display: grid;
@@ -56,8 +55,9 @@
 
 .description {
   overflow: hidden;
+  font-family: 'Dubai', sans-serif;
+
   margin-top: 10px;
-  font-family:"Calibri, sans-serif";
   grid-area: description;
   display: grid;
   font-size: 20px;
@@ -70,7 +70,7 @@
 }
 
 .joinbutton {
-  font-family:"Calibri, sans-serif";
+  font-family: 'Dubai', sans-serif;
   color: #fff;
   padding: 10px;
   font-size: 18px;

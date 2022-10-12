@@ -91,7 +91,6 @@ class ComingSoon extends Component {
               </button>
             </a>
           </div>
-
         </div>
 
         <div className="linksSocial">
